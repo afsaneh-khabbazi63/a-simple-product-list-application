@@ -1,0 +1,134 @@
+/*
+Filename: style.css
+Author: Afsaneh Khabbazibasmenj
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.mainPage {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px 1fr;
+}
+
+main {
+  padding: 2rem;
+}
+
+.empty-page {
+  display: grid;
+  place-items: center;
+}
+header {
+  grid-column: 1/ 3;
+  background: #333;
+  padding: 0.2rem 1rem;
+  color: #fff;
+}
+
+.add td:first-child {
+  min-width: 150px;
+  padding-left: 25px;
+}
+.add td {
+  padding: 0.5rem;
+}
+.add {
+  margin-top: 5rem;
+}
+legend {
+  padding-top: 10px;
+  margin-left: 5px;
+  margin-right: 300px;
+}
+
+.addNew {
+  display: flex;
+}
+
+aside a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+aside a:visited {
+  color: unset;
+}
+
+aside a.selected {
+  background-color: #f1f1f1;
+  padding-left: 1rem;
+}
+
+aside {
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+}
+
+.addNewButton {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #333;
+  margin-top: 3rem;
+  border-radius: 3em;
+}
+
+addNewButton:hover {
+  background: #333;
+}
+
+a.addNewButton:visited {
+  color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  padding: 0.5rem;
+}
+table tr {
+  border-bottom: 1px solid #555;
+}
+
+form tr {
+  border-bottom: none;
+}
+
+table caption {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.backButton {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+}
+
+.image-holder {
+  display: grid;
+  place-items: center;
+}
